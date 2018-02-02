@@ -1,0 +1,20 @@
+开发环境：node.js + express架构
+数据库：mongodb
+
+项目文件结构说明：
+app.js ：项目启动文件，关联数据库
+
+views文件夹 : 前端文件内容
+
+schemas文件夹:mongodb对应的关联数据结构表
+
+routers文件夹: 路由信息，中间件
+
+public文件夹 ：前端相关的css\js\images等文件
+
+node_modules文件夹：node.js存放的各种modules
+
+models文件夹：调用模板
+
+db文件夹：忽略该文件夹中的数据库信息，本项目内容开发过程中用了启用了其他存放位置不在这里。
+
